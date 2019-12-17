@@ -18,13 +18,17 @@ The idea is that you manually sync down your Redmine project list.
 This allows the search to always perform on local data.
 
 * `rp-token <token>`
+  
   Set's up the Redmine token authorization. You can find your token
   in your Redmine account settings.
 * `rp-host <host>`
+  
   Set's up the Redmine host.
 * `rp-sync`
+  
   Downloads the projects list over the Redmine REST API.
 * `rp <fuzzy project>`
+  
   Fuzzily searches the local copy of your projects list for project's `name` and `identifier`.
 
 ## Development
