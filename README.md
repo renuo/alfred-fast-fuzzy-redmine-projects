@@ -25,7 +25,7 @@ This allows the search to always perform on local data.
 * `rp-sync`
   Downloads the projects list over the Redmine REST API.
 * `rp <fuzzy project>`
-  Fuzzily searches the local copy of your projects list for `project`.
+  Fuzzily searches the local copy of your projects list for project's `name` and `identifier`.
 
 ## Development
 
