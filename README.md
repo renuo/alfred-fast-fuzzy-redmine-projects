@@ -12,6 +12,12 @@ Written in JavaScript with [alfy](https://github.com/sindresorhus/alfy).
 npm install --global @renuo/alfred-fast-fuzzy-redmine-projects --@renuo:registry=https://npm.pkg.github.com
 ```
 
+or if you don't have a [Github package registry token](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages)
+
+```
+npm install --global https://github.com/renuo/alfred-fast-fuzzy-redmine-projects
+```
+
 ## Actions
 
 The idea is that you manually sync down your Redmine project list.
