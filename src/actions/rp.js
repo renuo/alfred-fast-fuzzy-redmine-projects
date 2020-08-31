@@ -15,11 +15,11 @@ if (!host) {
 
 function fuzzyMatch(pattern, str) {
   pattern = '.*' + pattern.split('').join('.*') + '.*';
-  const re = new RegExp(pattern);
-  return re.test(str);
+  const re = new RegExp(pattern.toLowerCase());
+  return re.test(str.toLowerCase());
 }
 
-function niceName(project){
+function niceName(project) {
   return `${project.name} (${project.identifier})`;
 }
 
