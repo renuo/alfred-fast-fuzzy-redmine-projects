@@ -1,6 +1,6 @@
 # Fast Fuzzy Redmine Projects
 
-Alfred plugin to retrieve your own Github repositories fuzzy and fast.
+Alfred plugin to retrieve your Redmine projects fuzzy and fast.
 
 Written in JavaScript with [alfy](https://github.com/sindresorhus/alfy).
 
